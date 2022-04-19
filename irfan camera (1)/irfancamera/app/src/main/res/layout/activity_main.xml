@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageCamera"
+        android:layout_width="299dp"
+        android:layout_height="231dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginRight="59dp" />
+
+    <Button
+        android:id="@+id/buttonCamera"
+        android:layout_width="203dp"
+        android:layout_height="58dp"
+        android:layout_above="@+id/imageCamera"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="106dp"
+        android:layout_marginRight="102dp"
+        android:layout_marginBottom="133dp"
+        android:text="Buka Kamera" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageCamera"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginRight="120dp"
+        android:text="Camera app by Irfan" />
+
+
+</RelativeLayout>
